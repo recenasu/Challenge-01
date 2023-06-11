@@ -19,8 +19,8 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
+/* Used for the "seo" letters in "Horiseon" in the header*/
+.seo {
     color: #d9dcd6;
 }
 

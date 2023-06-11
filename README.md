@@ -62,27 +62,30 @@ N/A
 ## Features
 
 > * AC01: Accessibility Standards
->    -   Implementation:
+>   -   Implementation:
 
 
 >* AC02: Semantic HTML Elements
->    -   Implementation:
+>   -   Implementation:
 >        -   Changed "div" element to "figure" for the main image
 >        -   
 
 >* AC03: Logical Structure
->    -   Implementation
+>   -   Implementation
+>       -   Renamed the "header h1 seo" style to "seo" to make it easier to find in the stylesheet
 >
 
 >* AC04: Accessible alt Attributes
->    -   Implementation
+>   -   Implementation
 >
 
 >* AC05: Sequential Heading Attributes
 >   -   Implementation
 
 >* AC06: Concise, Descriptive Title
-    -   Implementation
+    -   Implementation:
+    -   Changed "title" element value from "Website" to "Horiseon Social Solution Services" 
+
     
 
 ## Tests
