@@ -63,12 +63,19 @@ N/A
 
 > * AC01: Accessibility Standards
 >   -   Implementation:
+>       -   Added an id to the Search Engine Optimization section element to fix the broken link in the nav bar
 
 
 >* AC02: Semantic HTML Elements
 >   -   Implementation:
->        -   Changed "div" element to "figure" for the main image
->        -   
+>        -   Changed the "div" element to "figure" for the main image
+>        -   Changed the "div class="header"" element to "header"
+>        -   Renamed the ".header" style to to "header"
+>        -   Renamed the ".header h1" style to "h1"
+>        -   Changed the "div" element in the header for the navigation bar to "nav"
+>        -   Renamed ".header div" style to "nav"
+>        -   Renamed the ".header div ul" style to "ul"
+>        -   Renamed the ".header div ul li" style to "li"
 
 >* AC03: Logical Structure
 >   -   Implementation
