@@ -90,8 +90,8 @@ N/A
 >   -   Implementation
 
 >* AC06: Concise, Descriptive Title
-    -   Implementation:
-    -   Changed "title" element value from "Website" to "Horiseon Social Solution Services" 
+>    -   Implementation:
+>        -   Changed "title" element value from "Website" to "Horiseon Social Solution Services" 
 
     
 
