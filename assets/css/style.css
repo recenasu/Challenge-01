@@ -1,13 +1,16 @@
+/* The default border attributes for all webpage elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* The background color for the body of the webpage. */
 body {
     background-color: #d9dcd6;
 }
 
+/* Used for the header at the top of the page. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Used for the webpage title in the upper left corner of the header.*/
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* Used for the "seo" letters in "Horiseon" in the header*/
+
+/* Used for the "seo" letters in "Horiseon" in the header.*/
 .seo {
     color: #d9dcd6;
 }
 
+/* Used for the navigation links on the top right of the page.*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,10 +38,12 @@ nav {
     font-size: 20px;
 }
 
+/* Used for all unordered list <ul> elements.*/
 ul {
     list-style-type: none;
 }
 
+/* Used for all list item <li> elements. */
 li {
     display: inline-block;
     margin-left: 25px;
@@ -50,6 +58,7 @@ p {
     font-size: 16px;
 }
 
+/* Used for identifying and styling the prominent image below the header and navigation bar. */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,20 +68,44 @@ p {
     background-position: center;
 }
 
+/* Used for sizing and placement of the section containing the topic blocks which contain the primary informational content of the webpage.  */
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Used to format the individual topic blocks containing the main content.*/
+.topic {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Used for sizing the images in the topic blocks.*/
+.topic img {
+    max-height: 200px;
+}
+
+/* Used for image placement within a topic block.*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Used for image placement within a topic block.*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/* Used for the h2 text elements within the topic blocks.*/
+.topic h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .benefits {
@@ -134,59 +167,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 .footer {
     padding: 30px;

@@ -76,10 +76,19 @@ N/A
 >        -   Renamed ".header div" style to "nav"
 >        -   Renamed the ".header div ul" style to "ul"
 >        -   Renamed the ".header div ul li" style to "li"
+>        -   Changed the "div class="content"" element to "section"
+>        -   Renamed the ".content" style to "section"
+>        -   Changed the "div" elements under "section" to "article"
+>        -   Withi   
 
 >* AC03: Logical Structure
 >   -   Implementation
 >       -   Renamed the "header h1 seo" style to "seo" to make it easier to find in the stylesheet
+>       -   Consolidated the classes "search-engine-optimization", "online-reputation-management", >and "social-media-marketing" to a single "topic" class for efficiency
+>       -   Consolidated the "search-engine-optimization img", "online-reputation-management img", >and "social-media-marketing img" styles to a single "topic img" style
+>       -   Consolidated the "search-engine-optimization h2", "online-reputation-management h2", and "social-media-marketing h2" styles to a single "topic h2" style
+>       -   Placed the above ".topic..." styles directly under the "section" style in the .css file for logical grouping. 
+>       -   Moved the ".float-left" and ".float-right" styles under the ".topic" style in the .css file for logical grouping since they only apply to the images under the topic class.
 >
 
 >* AC04: Accessible alt Attributes
