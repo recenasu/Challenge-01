@@ -76,10 +76,10 @@ N/A
 >        -   Renamed ".header div" style to "nav"
 >        -   Renamed the ".header div ul" style to "ul"
 >        -   Renamed the ".header div ul li" style to "li"
->        -   Changed the "div class="content"" element to "section"
->        -   Renamed the ".content" style to "section"
->        -   Changed the "div" elements under "section" to "article"
->        -   Withi   
+>        -   Changed the "div class="content"" element to "section class="content""
+>        -   Changed the "div" elements under the "section" elements to "article"
+>        -   Changed the "div class="benefits"" element to "section class="benefits""
+>        -   Changed  
 
 >* AC03: Logical Structure
 >   -   Implementation
@@ -89,7 +89,10 @@ N/A
 >       -   Consolidated the "search-engine-optimization h2", "online-reputation-management h2", and "social-media-marketing h2" styles to a single "topic h2" style
 >       -   Placed the above ".topic..." styles directly under the "section" style in the .css file for logical grouping. 
 >       -   Moved the ".float-left" and ".float-right" styles under the ".topic" style in the .css file for logical grouping since they only apply to the images under the topic class.
->
+>       -   Consolidated the classes "benefit-lead", "benefit-brand", and "benefit-cost" to a single "benefit-item" class for efficiency
+>       -   Consolidated the "benefit-lead", "benefit-brand", and "benefit-cost" styles to a single "benefit-item" style
+>       -   Consolidated the "benefit-lead h3", "benefit-brand h3", and "benefit-cost h3" class styles to a single "benefit-item h3" style
+>       -   Consolidated the "benefit-lead img", "benefit-brand img", and "benefit-cost img" styles to a single "benefit-item img" style
 
 >* AC04: Accessible alt Attributes
 >   -   Implementation
@@ -107,4 +110,4 @@ N/A
 ## Tests
 
 >1. Open the "CHALLENGE-01" repo using VSCode
->2. Inspect the "index.html" and "style.css" files to confirm all changes documented in the "Features" >section of this README have been implemented
+>2. Inspect the "index.html" and "style.css" files to confirm all changes documented in the "Features" section of this README have been implemented
