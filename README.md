@@ -42,13 +42,17 @@ SO THAT our own site is optimized for search engines
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+From the webpage navigation bar in the upper right, click on the desired topic, or scroll down.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+The following images show the top, middle, and bottom of the webpage.
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![Header and Navigation bar](assets/images/header-navbar.png)
+
+
+![Middle of page](assets/images/middle-of-page.png)
+
+
+![Bottom of page](assets/images/bottom-of-page.png)
 
 ## Credits
 
@@ -85,7 +89,7 @@ N/A
 >        -   Changed the "div" elements within the "aside" element to "article"
 >        -   Changed the "div class="footer"" element to "footer"
 >        -   Renamed the ".footer" style to "footer"
->        -   See AC03 below for some more styles that were consolidated and renamed to be correspond with the changes in the HTML document.
+>        -   See AC03 below for some more styles that were consolidated and renamed to correspond with the changes in the HTML document.
 
 >* AC03: Logical Structure
 >   -   Implementation
@@ -103,9 +107,12 @@ N/A
 >* AC04: Accessible alt Attributes
 >   -   Implementation
 >       -   Added "title="People around a conference table"" to the "figure" element
->       -   Added "alt="Notebook, laptop, coffee cup, and other desktop items"" to the "img" element for the "search-engine-optimization" article
->       -   Added "alt="Hands of person at desk using laptop and cell phone"" to the "img" element for the "online-reputation-management" article
->       -   Added "alt="People around a table using social media on multiple types of devices"" to the "img" element for the "social-media-marketing" article
+>       -   Added "alt="Notebook, laptop, coffee cup, and other desktop items"" to the "img" element for the "search-engine-optimization" section article
+>       -   Added "alt="Hands of person at desk using laptop and cell phone"" to the "img" element for the "online-reputation-management" section article
+>       -   Added "alt="People around a table using social media on multiple types of devices"" to the "img" element for the "social-media-marketing" section article
+>       -   Added "alt="Gear-Arrow-Money icon"" to the "img" element for the "lead-generation" aside article
+>       -   Added "alt="Person with a radiating light bulb head wearing a tie - icon"" to the "img" element for the "brand-awareness" aside article
+>       -   Added "alt="Gear with dollar sign icon"" to the "img" element for the "cost-management" aside article
 
 >* AC05: Sequential Heading Attributes
 >   -   Implementation:
