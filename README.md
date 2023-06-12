@@ -72,14 +72,20 @@ N/A
 >        -   Changed the "div class="header"" element to "header"
 >        -   Renamed the ".header" style to to "header"
 >        -   Renamed the ".header h1" style to "h1"
+>        -   Changed the "span div class="seo"" element to "span"
+>        -   Renamed the ".seo" style to "span"
 >        -   Changed the "div" element in the header for the navigation bar to "nav"
 >        -   Renamed ".header div" style to "nav"
 >        -   Renamed the ".header div ul" style to "ul"
 >        -   Renamed the ".header div ul li" style to "li"
->        -   Changed the "div class="content"" element to "section class="content""
->        -   Changed the "div" elements under the "section" elements to "article"
->        -   Changed the "div class="benefits"" element to "section class="benefits""
->        -   Changed  
+>        -   Changed the "div class="content"" element to "section"
+>        -   Changed the "div" elements within the "section" element to "article"
+>        -   Changed the "div class="benefits"" element to "aside"
+>        -   Renamed the ".benefits" style to "aside"
+>        -   Changed the "div" elements within the "aside" element to "article"
+>        -   Changed the "div class="footer"" element to "footer"
+>        -   Renamed the ".footer" style to "footer"
+>        -   See AC03 below for some more styles that were consolidated and renamed to be correspond with the changes in the HTML document.
 
 >* AC03: Logical Structure
 >   -   Implementation
@@ -89,17 +95,22 @@ N/A
 >       -   Consolidated the "search-engine-optimization h2", "online-reputation-management h2", and "social-media-marketing h2" styles to a single "topic h2" style
 >       -   Placed the above ".topic..." styles directly under the "section" style in the .css file for logical grouping. 
 >       -   Moved the ".float-left" and ".float-right" styles under the ".topic" style in the .css file for logical grouping since they only apply to the images under the topic class.
->       -   Consolidated the classes "benefit-lead", "benefit-brand", and "benefit-cost" to a single "benefit-item" class for efficiency
->       -   Consolidated the "benefit-lead", "benefit-brand", and "benefit-cost" styles to a single "benefit-item" style
->       -   Consolidated the "benefit-lead h3", "benefit-brand h3", and "benefit-cost h3" class styles to a single "benefit-item h3" style
->       -   Consolidated the "benefit-lead img", "benefit-brand img", and "benefit-cost img" styles to a single "benefit-item img" style
+>       -   Consolidated the classes "benefit-lead", "benefit-brand", and "benefit-cost" to a single "aside-item" class for efficiency
+>       -   Consolidated the "benefit-lead", "benefit-brand", and "benefit-cost" styles to a single "aside-item" style
+>       -   Consolidated the "benefit-lead h3", "benefit-brand h3", and "benefit-cost h3" class styles to a single "aside-item h3" style
+>       -   Consolidated the "benefit-lead img", "benefit-brand img", and "benefit-cost img" styles to a single "aside-item img" style
 
 >* AC04: Accessible alt Attributes
 >   -   Implementation
->
+>       -   Added "title="People around a conference table"" to the "figure" element
+>       -   Added "alt="Notebook, laptop, coffee cup, and other desktop items"" to the "img" element for the "search-engine-optimization" article
+>       -   Added "alt="Hands of person at desk using laptop and cell phone"" to the "img" element for the "online-reputation-management" article
+>       -   Added "alt="People around a table using social media on multiple types of devices"" to the "img" element for the "social-media-marketing" article
 
 >* AC05: Sequential Heading Attributes
->   -   Implementation
+>   -   Implementation:
+>       -   Changed the "h2" element in the footer to "h4"
+>       -   Removed the ".footer h2" style
 
 >* AC06: Concise, Descriptive Title
 >    -   Implementation:

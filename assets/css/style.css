@@ -25,7 +25,7 @@ h1 {
 }
 
 /* Used for the "seo" letters in "Horiseon" in the header.*/
-.seo {
+span {
     color: #d9dcd6;
 }
 
@@ -49,11 +49,13 @@ li {
     margin-left: 25px;
 }
 
+/* Used for the appearance of the text links in the upper right navigation bar */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Used for the descriptive text in the section and aside areas */
 p {
     font-size: 16px;
 }
@@ -69,7 +71,7 @@ p {
 }
 
 /* Used for sizing and placement of the section containing the topic blocks which contain the primary informational content of the webpage.  */
-.content {
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -109,7 +111,7 @@ p {
 }
 
 /* Used for the Benefits section in the lower right sidebar. */
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -121,33 +123,30 @@ p {
 }
 
 /* Used for the margin and text color for the benefit blocks in the lower right sidebar */
-.benefit-item {
+.aside-item {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Used for the positioning of the titles in the benefit-item blocks in the lower right sidebar.*/
-.benefit-item h3 {
+/* Used for the positioning of the titles in the aside-item blocks in the lower right sidebar.*/
+.aside-item h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Used for position and sizing of the individual images in the benefit-item blocks in the lower right sidebar.*/
-.benefit-item img {
+/* Used for position and sizing of the individual images in the aside-item blocks in the lower right sidebar.*/
+.aside-item img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 
-
-.footer {
+/* Used to style the footer.*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
-    font-size: 20px;
-}

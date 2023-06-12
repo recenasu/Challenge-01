@@ -10,7 +10,7 @@
 <body>
     <header>
         <!-- Multicolored Horiseon text in the upper left of the header -->
-        <h1>Hori<span class="seo">seo</span>n</h1>
+        <h1>Hori<span>seo</span>n</h1>
         <!-- Navigation bar within the header -->
         <nav>
             <ul>
@@ -30,13 +30,13 @@
         </nav>
     </header>
     <!-- Prominent image displayed below the header -->
-    <figure class="hero"></figure>
+    <figure class="hero" title="People meeting around a conference table"></figure>
     <!-- Primary content section containing individual topic blocks with images and text.-->
-    <section class="content">
+    <section>
         <!-- This is the 1st topic block containing an image and description of the topic. -->
         <article id="search-engine-optimization" class="topic">
             <!-- Image source file and placement -->
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Notebook, laptop, coffee cup, and other desktop items"/>
             <!-- Topic title -->
             <h2>Search Engine Optimization</h2>
             <!-- Topic Description -->
@@ -47,7 +47,7 @@
         </article>
         <article id="online-reputation-management" class="topic">
             <!-- Image source file and placement -->
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="Hands of person at desk using laptop and cell phone"/>
             <!-- Topic title -->
             <h2>Online Reputation Management</h2>
             <!-- Topic Description -->
@@ -58,7 +58,7 @@
         </article>
         <article id="social-media-marketing" class="topic">
             <!-- Image source file and placement -->
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="People around a table using social media on multiple types of devices"/>
             <!-- Topic title -->
             <h2>Social Media Marketing</h2>
             <!-- Topic Description -->
@@ -68,9 +68,9 @@
         </article>
     </section>
     <!-- Section in the lower right sidebar containing benefits information with images and associated text.-->
-    <section class="benefits">
+    <aside>
         <!-- This is the 1st block containing an image and description of the benefit. -->
-        <article class="benefit-item">
+        <article class="aside-item">
             <!-- Benefit title -->
             <h3>Lead Generation</h3>
             <!-- Image source file -->
@@ -81,7 +81,7 @@
             </p>
         </article>
         <!-- This is the 2nd block containing an image and description of the benefit. -->
-        <article class="benefit-item">
+        <article class="aside-item">
             <!-- Benefit title -->
             <h3>Brand Awareness</h3>
             <!-- Image source file -->
@@ -92,7 +92,7 @@
             </p>
         </article>
         <!-- This is the 3rd block containing an image and description of the benefit. -->
-        <article class="benefit-item">
+        <article class="aside-item">
             <!-- Benefit title -->
             <h3>Cost Management</h3>
             <!-- Image source file -->
@@ -102,13 +102,16 @@
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </article>
-    </section>
-    <div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+    </aside>
+    <!-- The footer of the webpage.-->
+    <footer>
+        <!-- footer first line -->
+        <h4>Made with ❤️️ by Horiseon</h4>
+        <!-- copyright information -->
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
