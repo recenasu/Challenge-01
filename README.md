@@ -89,7 +89,7 @@ N/A
 >        -   Changed the "div" elements within the "aside" element to "article"
 >        -   Changed the "div class="footer"" element to "footer"
 >        -   Renamed the ".footer" style to "footer"
->        -   See AC03 below for some more styles that were consolidated and renamed to correspond with the changes in the HTML document.
+>        -   See AC03 below for more styles that were consolidated and renamed to correspond with the changes in the HTML document.
 
 >* AC03: Logical Structure
 >   -   Implementation
