@@ -38,7 +38,7 @@ SO THAT our own site is optimized for search engines
 
 ## Installation
 
-> To launch the webpage, open the browser and paste the following URL in the address bar: <INSERT URL> 
+> To launch the webpage, open the browser and paste the following URL in the address bar: https://recenasu.github.io/Challenge-01/
 
 ## Usage
 
